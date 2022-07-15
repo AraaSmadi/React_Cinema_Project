@@ -1,0 +1,262 @@
+.login__main {
+  height: 100%;
+  color: white;
+}
+.login__row {
+  display: flex !important;
+  justify-content: center;
+  margin: auto;
+  height: 100vh;
+  align-items: center !important;
+}
+
+.login__main .card {
+  height: 85% !important;
+  width: 450px !important;
+  outline: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: none;
+  justify-content: center;
+  padding-top: 20px;
+  font-family: "Roboto", sans-serif;
+  background-image: radial-gradient(circle, #580861 0%, #0dd5fdcb 100%);
+}
+.login__title h2 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-align: center;
+}
+.login__title p {
+  text-align: center;
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+.login__btns {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.login__btns button {
+  height: 45px;
+  width: 250px;
+  font-weight: 600;
+  margin: 10px 0;
+}
+.login__btns .google {
+  border: 2px solid gray;
+  font-family: "Roboto", sans-serif;
+  border-radius: 5px;
+  color: rgb(61, 61, 61);
+}
+.login__btns .apple {
+  border: 2px solid rgb(19, 18, 18);
+  font-family: "Roboto", sans-serif;
+  border-radius: 5px;
+  background-color: rgb(20, 20, 20);
+  color: rgb(194, 194, 194);
+}
+.or__line {
+  display: flex;
+  align-items: center;
+  margin: 10px 0px;
+}
+.or__line .span-h,
+.span-k {
+  background: #9e9c9c !important;
+  height: 1px;
+  width: 120px;
+  margin: 0 10px;
+  position: relative;
+}
+.span-p {
+  margin: 0 10px;
+}
+.input_all h5 {
+  font-size: 15px;
+  color: white;
+}
+h5 {
+  color: white;
+}
+.new__acc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.new__acc button {
+  width: 250px;
+  height: 40px;
+  background: rgb(150, 0, 180);
+  border: none;
+  border-radius: 5px;
+  color: rgb(214, 213, 213);
+}
+.new__acc p {
+  font-size: 14px;
+}
+.name {
+  color: white;
+}
+a {
+  color: white;
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+input {
+  width: 90%;
+  padding: 10px 15px;
+  margin: 5px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1025px) {
+
+  .login__main .card {
+    height: 75% !important;
+    width: 350px !important;
+    padding-top: 15px;
+  }
+  .login__title h2 {
+    font-size: 1.rem;
+    font-weight: 500;
+    padding-bottom: 10px;
+  }
+  .login__title p {
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 15px;
+  }
+  .login__btns button {
+    height: 40px;
+    width: 200px;
+    font-weight: 500;
+    margin: 8px 0;
+  }
+
+  .input_all h5 {
+    font-size: 14px;
+  }
+
+  .new__acc button {
+    width: 200px;
+    height: 30px;
+    background: rgb(150, 0, 180);
+    border: none;
+    border-radius: 5px;
+    color: rgb(214, 213, 213);
+  }
+  .new__acc p {
+    font-size: 10px;
+  }
+
+  a {
+    font-size: 15px;
+  }
+
+  input {
+    width: 80%;
+    height: 25px;
+    padding: 15px 10px;
+    margin: 4px 0;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 550px) {
+
+  .login__main .card {
+    height: 75% !important;
+    width: 300px !important;
+    padding-top: 15px;
+  }
+  .login__title h2 {
+    font-size: 1.rem;
+    font-weight: 500;
+    padding-bottom: 10px;
+  }
+  .login__title p {
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 15px;
+  }
+  .login__btns button {
+    height: 40px;
+    width: 200px;
+    font-weight: 500;
+    margin: 8px 0;
+  }
+
+  .input_all h5 {
+    font-size: 14px;
+
+  }
+
+  .new__acc button {
+    width: 200px;
+    height: 30px;
+    background: rgb(150, 0, 180);
+    border: none;
+    border-radius: 5px;
+    color: rgb(214, 213, 213);
+  }
+  .new__acc p {
+    font-size: 10px;
+  }
+
+  a {
+    font-size: 15px;
+  }
+
+  input {
+    width: 80%;
+    height: 25px;
+    padding: 15px 10px;
+    margin: 4px 0;
+  }
+
+.sign_name{
+  padding-left: 50px;
+}
+
+
+
+}

@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@emailjs/browser": "^3.6.2",
+    "axios": "^0.27.2",
+    "catchmail": "^1.1.0"
+  }
+}
